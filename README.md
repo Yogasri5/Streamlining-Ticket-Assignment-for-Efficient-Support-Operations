@@ -157,6 +157,64 @@ Issue → is → Regarding User Expired
 
 Save & Activate.
 
+## 📂 Project Structure
+ABC-Ticket-Routing/
+
+│
+
+├── Users/
+
+│   ├── Katherine Pierce (Certificate group)
+
+│   ├── Manne Niranjan (Platform group)
+
+│
+
+├── Groups/
+
+│   ├── Certificates Group
+
+│   ├── Platform Group
+
+│
+
+├── Roles/
+
+│   ├── Certification_role
+
+│   ├── Platform_role
+
+│
+
+├── Tables/
+
+│   ├── u_operations_related
+
+│   │   ├── Issue (Choice field)
+
+│   │   ├── Assigned to Group
+
+│   │   └── Other custom columns
+
+│
+
+├── ACLs/
+
+│   ├── Read access
+
+│   ├── Write access
+
+│   ├── Field-level restrictions
+
+│
+
+├── Flows/
+
+│   ├── Regarding Certificate → Assigns to Certificates Group
+
+│   └── Regarding Platform → Assigns to Platform Group
+
+
 **Outcome**
 
 This automated ticket routing system in ServiceNow ensures that:
